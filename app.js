@@ -36,12 +36,12 @@ $(document).ready(function(){
 	  	+ '</td></tr>'
   		);
   		$('.convert1').on('click', function(){
-  			var clp = $('.clp').val();
+  			var clp = parseInt($('.clp').val());
   			$('.dolar1').val('$ ' + (clp / dolar_valor).toFixed(2));
   			$('.euro1').val('$ ' + (clp / euro_valor).toFixed(2));
   		})
   		$('.convert2').on('click', function(){
-  			var dolar_a = $('.dolar_a').val()
+  			var dolar_a = parseInt($('.dolar_a').val());
   			$('.dolar_b').val('$ ' + (dolar_a * dolar_valor).toFixed(2));
   		})
 	});

@@ -1,0 +1,39 @@
+body {
+	box-sizing: border-box;
+}
+
+.convert {
+	text-align: center;
+}
+
+.table {
+	margin: 50px 0;
+}
+
+h3, h2 {
+	margin: 25px 0 25px 0;
+}
+
+h2 { 
+	color: #2C699E;
+	font-weight: bold;
+}
+
+.fecha h3 {
+	font-style: italic;
+	margin-bottom: 40px;
+}
+
+input, button {
+	border-radius: 10px;
+	padding: 5px 10px;
+	margin: 5px;
+}
+
+input {
+	border: 1px solid #bbb;
+}
+
+button {
+	border: 0;
+}
